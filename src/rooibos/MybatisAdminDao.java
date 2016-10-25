@@ -7,7 +7,7 @@ public class MybatisAdminDao implements AdminDao {
 	 
 	public MybatisAdminDao() {
 
-	ssf = NewlecSessionFactoryBuilder.getSqlsessionFactory(); 
+	ssf = SessionFactoryBuilder.getSqlsessionFactory(); 
 		
 	}
 	@Override
